@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<title> coffee shop</title>    
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>Coffee Shop</h1>
+   <img src="logo.png"> 
+  <h2>Please enter your name</h2><br>
+  <input type = “text”>
+  <h2>Please enter your email</h2><br>
+  <input type = “text”>
+  <h2>Please enter your name</h2><br>
+  <input type = “password”>
+  <h2>Please enter your Phone number</h2><br>
+  <input type = “text”>  
+  <h2>Please enter your address</h2><br>
+  <input type = “text”>
+  <SCRIPT>
+    function ShowAndHide() {
+        var x = document.getElementById('SectionName');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    </SCRIPT>
+    <BUTTON ONCLICK="ShowAndHide()">Order</BUTTON>
+    <DIV ID="SectionName" STYLE="display:none"><h1>Thanks For Ordering!<br>Your order is on your way</h1></DIV>
+  
+</body>
+</html>
